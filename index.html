@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title -->
+    <title>FC Barcelona Best Five</title>
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- custom-css -->
+</head>
+
+<body class="bg-indigo-900 text-white">
+    <!-- header-banner -->
+    <header>
+        <div
+            class="max-w-md mx-auto rounded-xl shadow-md overflow-hidden md:max-w-6xl bg-gradient-to-r from-indigo-500 via-purple-400 to-pink-400 ">
+            <div class="md:flex mt-12">
+                <div class="md:shrink-0">
+                    <img class="h-48 w-full object-cover md:h-full md:w-48" src="images/bg.png"
+                        alt="Man looking at item at a store">
+                </div>
+                <div class="px-16 text-center mt-24">
+                    <h1 class="text-white text-5xl font-bold mb-8">FC Barcelona Best Five</h1>
+                    <p class="mt-2 text-xl text-gray-800">Barça TV + is showing live coverage of the charity game
+                        promoted by Juan Carlos Unzué to raise funds for ALS research.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main class="lg:flex lg:justify-evenly lg:p-20 p-10 gap-14">
+        <!-- cards -->
+        <section class="lg:w-3/4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <!-- player-1 -->
+            <div class="max-w-sm rounded overflow-hidden shadow-lg mt-8 bg-black">
+                <div class="h-2/4">
+                    <img class="w-full h-full hover:animate-pulse" src="images/player1.png" alt="">
+                </div>
+
+                <div class="h-2/4 text-center flex flex-col justify-center gap-6 py-4">
+                    <h2 id="name1" class="text-2xl font-semibold">Robert Lewandowski</h2>
+                    <div class="flex items-center gap-3 justify-center text-zinc-400">
+                        <p>96 Goals</p>
+                        <span>.</span>
+                        <p>120 Assist</p>
+                    </div>
+                    <!-- player-1-btn -->
+                    <button onclick="playerList('name1', this)" type="button"
+                        class="rounded  py-2 mx-10 bg-blue-700 hover:bg-green-700 disabled:bg-gray-600 font-medium hover:mx-5 hover:ease-in-out duration-700 hover:disabled:bg-red-700">Select</button>
+                </div>
+            </div>
+            <!-- player-2 -->
+            <div class="max-w-sm rounded overflow-hidden shadow-lg mt-8 bg-black">
+                <div class="h-2/4">
+                    <img class="w-full h-full hover:animate-pulse" src="images/player2.png" alt="">
+                </div>
+
+                <div class="h-2/4 text-center flex flex-col justify-center gap-6 py-4">
+                    <h2 id="name2" class="text-2xl font-semibold">Pedro González</h2>
+                    <div class="flex items-center gap-3 justify-center text-zinc-400">
+                        <p>69 Goals</p>
+                        <span>.</span>
+                        <p>99 Assist</p>
+                    </div>
+                    <!-- player-2-btn -->
+                    <button onclick="playerList('name2', this)" type="button"
+                        class="rounded  py-2 mx-10 bg-blue-700 hover:bg-green-700 disabled:bg-gray-600 font-medium hover:mx-5 hover:ease-in-out duration-700 hover:disabled:bg-red-700">Select</button>
+                </div>
+            </div>
+            <!-- player-3 -->
+            <div class="max-w-sm rounded overflow-hidden shadow-lg mt-8 bg-black">
+                <div class="h-2/4">
+                    <img class="w-full h-full hover:animate-pulse" src="images/player3.png" alt="">
+                </div>
+
+                <div class="h-2/4 text-center flex flex-col justify-center gap-6 py-4">
+                    <h2 id="name3" class="text-2xl font-semibold">Raphinha</h2>
+                    <div class="flex items-center gap-3 justify-center text-zinc-400">
+                        <p>66 Goals</p>
+                        <span>.</span>
+                        <p>90 Assist</p>
+                    </div>
+                    <!-- player-3-btn -->
+                    <button onclick="playerList('name3', this)" type="button"
+                        class="rounded  py-2 mx-10 bg-blue-700 hover:bg-green-700 disabled:bg-gray-600 font-medium hover:mx-5 hover:ease-in-out duration-700 hover:disabled:bg-red-700">Select</button>
+                </div>
+            </div>
+            <!-- player-4 -->
+            <div class="max-w-sm rounded overflow-hidden shadow-lg mt-8 bg-black">
+                <div class="h-2/4">
+                    <img class="w-full h-full hover:animate-pulse" src="images/player4.png" alt="">
+                </div>
+
+                <div class="h-2/4 text-center flex flex-col justify-center gap-6 py-4">
+                    <h2 id="name4" class="text-2xl font-semibold">Pierre Aubameyang</h2>
+                    <div class="flex items-center gap-3 justify-center text-zinc-400">
+                        <p>36 Goals</p>
+                        <span>.</span>
+                        <p>20 Assist</p>
+                    </div>
+                    <!-- player-4-btn -->
+                    <button onclick="playerList('name4', this)" type="button"
+                        class="rounded  py-2 mx-10 bg-blue-700 hover:bg-green-700 disabled:bg-gray-600 font-medium hover:mx-5 hover:ease-in-out duration-700 hover:disabled:bg-red-700">Select</button>
+                </div>
+            </div>
+            <!-- player-5 -->
+            <div class="max-w-sm rounded overflow-hidden shadow-lg mt-8 bg-black">
+                <div class="h-2/4">
+                    <img class="w-full h-full hover:animate-pulse" src="images/player5.png" alt="">
+                </div>
+
+                <div class="h-2/4 text-center flex flex-col justify-center gap-6 py-4">
+                    <h2 id="name5" class="text-2xl font-semibold">Ferran Torres</h2>
+                    <div class="flex items-center gap-3 justify-center text-zinc-400">
+                        <p>30 Goals</p>
+                        <span>.</span>
+                        <p>12 Assist</p>
+                    </div>
+                    <!-- player-5-btn -->
+                    <button onclick="playerList('name5', this)" type="button"
+                        class="rounded  py-2 mx-10 bg-blue-700 hover:bg-green-700 disabled:bg-gray-600 font-medium hover:mx-5 hover:ease-in-out duration-700 hover:disabled:bg-red-700">Select</button>
+                </div>
+            </div>
+            <!-- player-6 -->
+            <div class="max-w-sm rounded overflow-hidden shadow-lg mt-8 bg-black">
+                <div class="h-2/4">
+                    <img class="w-full h-full hover:animate-pulse" src="images/player6.png" alt="">
+                </div>
+
+                <div class="h-2/4 text-center flex flex-col justify-center gap-6 py-4">
+                    <h2 id="name6" class="text-2xl font-semibold">Andreas Christensen</h2>
+                    <div class="flex items-center gap-3 justify-center text-zinc-400">
+                        <p>33 Goals</p>
+                        <span>.</span>
+                        <p>30 Assist</p>
+                    </div>
+                    <!-- player-6-btn -->
+                    <button onclick="playerList('name6', this)" type="button"
+                        class="rounded  py-2 mx-10 bg-blue-700 hover:bg-green-700 disabled:bg-gray-600 font-medium hover:mx-5 hover:ease-in-out duration-700 hover:disabled:bg-red-700">Select</button>
+                </div>
+            </div>
+            <!-- player-7 -->
+            <div class="max-w-sm rounded overflow-hidden shadow-lg mt-8 bg-black">
+                <div class="h-2/4">
+                    <img class="w-full h-full hover:animate-pulse" src="images/player7.jpg" alt="">
+                </div>
+
+                <div class="h-2/4 text-center flex flex-col justify-center gap-6 py-4">
+                    <h2 id="name7" class="text-2xl font-semibold">Ousmane Dembélé</h2>
+                    <div class="flex items-center gap-3 justify-center text-zinc-400">
+                        <p>80 Goals</p>
+                        <span>.</span>
+                        <p>70 Assist</p>
+                    </div>
+                    <!-- player-7-btn -->
+                    <button onclick="playerList('name7', this)" type="button"
+                        class="rounded  py-2 mx-10 bg-blue-700 hover:bg-green-700 disabled:bg-gray-600 font-medium hover:mx-5 hover:ease-in-out duration-700 hover:disabled:bg-red-700">Select</button>
+                </div>
+            </div>
+            <!-- player-8 -->
+            <div class="max-w-sm rounded overflow-hidden shadow-lg mt-8 bg-black">
+                <div class="h-2/4">
+                    <img class="w-full h-full hover:animate-pulse" src="images/player8.png" alt="">
+                </div>
+
+                <div class="h-2/4 text-center flex flex-col justify-center gap-6 py-4">
+                    <h2 id="name8" class="text-2xl font-semibold">Ansu Fati</h2>
+                    <div class="flex items-center gap-3 justify-center text-zinc-400">
+                        <p>44 Goals</p>
+                        <span>.</span>
+                        <p>22 Assist</p>
+                    </div>
+                    <!-- player-8-btn -->
+                    <button onclick="playerList('name8', this)" type="button"
+                        class="rounded  py-2 mx-10 bg-blue-700 hover:bg-green-700 disabled:bg-gray-600 font-medium hover:mx-5 hover:ease-in-out duration-700 hover:disabled:bg-red-700">Select</button>
+                </div>
+            </div>
+            <!-- player-9 -->
+            <div class="max-w-sm rounded overflow-hidden shadow-lg mt-8 bg-black">
+                <div class="h-2/4">
+                    <img class="w-full h-full hover:animate-pulse" src="images/player9.png" alt="">
+                </div>
+
+                <div class="h-2/4 text-center flex flex-col justify-center gap-6 py-4">
+                    <h2 id="name9" class="text-2xl font-semibold">Franck Kessié</h2>
+                    <div class="flex items-center gap-3 justify-center text-zinc-400">
+                        <p>40 Goals</p>
+                        <span>.</span>
+                        <p>10 Assist</p>
+                    </div>
+                    <!-- player-9-btn -->
+                    <button onclick="playerList('name9', this)" type="button"
+                        class="rounded  py-2 mx-10 bg-blue-700 hover:bg-green-700 disabled:bg-gray-600 font-medium hover:mx-5 hover:ease-in-out duration-700 hover:disabled:bg-red-700">Select</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- aside -->
+        <aside class="lg:w-1/4 w-fit md:w-auto mx-auto lg:mx-0 mt-8">
+            <!-- 1st-aside -->
+            <div class="bg-black py-6 lg:mb-7 my-7 lg:my-0 rounded">
+
+                <div class="text-center py-3">
+                    <h2 class="text-2xl font-semibold">Selected Player- <span id="count">0</span></h2>
+                    <!-- <img class="mx-auto animate-pulse" src="images/Ureg-Ureg Marker.png" alt=""> -->
+                </div>
+
+                <!-- order-list -->
+                <div>
+                    <!-- ul -->
+                    <ul id="ul" class="list-decimal lg:ml-14 md:ml-48 ml-14 cus_head">
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 2nd-aside -->
+            <div class="bg-black py-6 rounded">
+
+                <div class="text-center py-3">
+                    <h2 class="text-2xl font-semibold">Budget</h2>
+                    <!-- <img class="mx-auto animate-pulse" src="images/Ureg-Ureg Marker.png" alt=""> -->
+                </div>
+
+                <!-- calculations -->
+                <div class="p-4">
+
+                    <!-- per-player -->
+                    <div class="flex justify-between items-center">
+                        <p class="text-zinc-400 pr-10 lg:pr-0">Per Player: </p>
+                        <input id="per-player" class="w-1/2 bg-white text-black p-2 rounded" type="number" name=""
+                            value="" placeholder="Enter Amount">
+                    </div>
+
+                    <!-- cal-btn -->
+                    <button onclick="calculate()"
+                        class="my-5 mx-auto block  py-2 px-9 bg-blue-700 hover:bg-green-700 disabled:bg-gray-600 font-medium hover:px-16 hover:ease-in-out duration-700 rounded"
+                        type="
+                        button">Calculate</button>
+
+                    <!-- player-expenses -->
+                    <div class="mb-4 flex justify-between items-center">
+                        <p class="text-zinc-400">Player Expenses = </p>
+                        <p class="text-white cus_head text-xl">$<span id="player-expenses"
+                                class="cus_head text-xl"></span></p>
+                    </div>
+
+                    <!-- manager -->
+                    <div class="mb-4 flex justify-between items-center">
+                        <p class="text-zinc-400 pr-10 lg:pr-0">Manager: </p>
+                        <input class="w-1/2 bg-white text-black p-2 rounded" type="number" name="" value="" id="manager"
+                            placeholder="Enter Amount">
+                    </div>
+
+                    <!-- coach -->
+                    <div class="flex justify-between items-center">
+                        <p class="text-zinc-400 pr-10 lg:pr-0">Coach: </p>
+                        <input class="w-1/2 bg-white text-black p-2 rounded" type="number" name="" value="" id="coach"
+                            placeholder="Enter Amount">
+                    </div>
+
+                    <!-- cal-total-btn -->
+                    <button id="calculate-total"
+                        class="my-5 mx-auto block  py-2 px-9 bg-blue-700 hover:bg-green-700 disabled:bg-gray-600 font-medium hover:px-14 hover:ease-in-out duration-700 rounded"
+                        type="
+                            button">Calculate Total</button>
+
+                    <!-- total -->
+                    <div class="flex justify-between items-center">
+                        <p class="text-zinc-400">Total = </p>
+                        <p class="cus_head text-xl">$<span id="total" class="cus_head text-xl"></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <hr class="border-zinc-700">
+        </hr>
+        <small class="p-8 text-center block">Copyright @ 2022 All Rights Reserved.</small>
+    </footer>
+
+    <!-- js-files-script -->
+    <script src="js/utilities.js"></script>
+    <script src="js/calculation.js"></script>
+</body>
+
+</html>
